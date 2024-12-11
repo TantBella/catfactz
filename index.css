@@ -1,3 +1,42 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  font-family: "Montserrat", "Helvetica Neue", sans-serif;
+ /* text-transform: uppercase;*/
+}
+
+header,
+footer {
+  background-color: black;
+  color: beige;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 5px;
+  font-weight: 300;
+  margin: 0;
+}
+main {
+  padding: 1rem;
+  text-align: center;
+}
+
+img {
+  max-width: 50%;
+  margin: 1rem auto;
+}
+
+
+.bordered-text {
+  display: inline-block; 
+  padding: 10px;        
+  border: 2px solid black; 
+  border-radius: 5px;    
+  font-size: 16px;       
+}
